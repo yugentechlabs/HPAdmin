@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "478280879979",
+    "firebase_url": "https://harry-potter-world-13e77.firebaseio.com",
+    "project_id": "harry-potter-world-13e77",
+    "storage_bucket": "harry-potter-world-13e77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478280879979:android:498098c4c5bf095b38c62e",
+        "android_client_info": {
+          "package_name": "com.yugentechlabs.harrypotterworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478280879979-9u20m70joq9jtpi3fsov3o04qpdp9m03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBerL4FOQy88Xz_X0v2YN_hnASMNy1ZEC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478280879979-9u20m70joq9jtpi3fsov3o04qpdp9m03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478280879979:android:6bf5903353627ca038c62e",
+        "android_client_info": {
+          "package_name": "com.yugentechlabs.hpquizadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478280879979-9u20m70joq9jtpi3fsov3o04qpdp9m03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBerL4FOQy88Xz_X0v2YN_hnASMNy1ZEC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478280879979-9u20m70joq9jtpi3fsov3o04qpdp9m03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
