@@ -9,17 +9,25 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button addLevel;
+    Button addLevel,updateLevel;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        addLevel=findViewById(R.id.button);
+        addLevel=findViewById(R.id.add_level);
         addLevel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, AddLevelActivity.class));
+            }
+        });
+
+        updateLevel=findViewById(R.id.update_level);
+        updateLevel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, UpdateLevel.class));
             }
         });
     }

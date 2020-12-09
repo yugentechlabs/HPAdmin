@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HPQuizAdmin">
-        <activity android:name=".AddLevelActivity"></activity>
+        <activity android:name=".UpdateLevelIndividual"></activity>
+        <activity android:name=".UpdateLevel" />
+        <activity android:name=".AddLevelActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

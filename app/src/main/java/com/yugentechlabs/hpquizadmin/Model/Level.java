@@ -1,9 +1,10 @@
 package com.yugentechlabs.hpquizadmin.Model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Level {
+public class Level implements Serializable {
 
     public Level(){
         //just needed

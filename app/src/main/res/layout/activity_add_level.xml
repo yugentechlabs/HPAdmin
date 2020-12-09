@@ -21,11 +21,13 @@
         android:layout_marginHorizontal="50dp"
         android:orientation="vertical"
         android:paddingBottom="100dp"
-        android:layout_marginVertical="50dp"
+        android:paddingTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+
 
         <TextView
             android:id="@+id/question_num"
@@ -35,7 +37,18 @@
             android:textSize="30dp"
             android:textColor="@color/white"
             android:backgroundTint="@color/white"
-            android:layout_marginVertical="20dp"/>
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Level Number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_marginVertical="10dp"/>
 
 
         <EditText
@@ -47,7 +60,7 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:backgroundTint="@color/white"
-            android:layout_marginVertical="10dp"/>
+            android:layout_marginVertical="5dp"/>
 
         <EditText
             android:id="@+id/option_one"
@@ -58,7 +71,7 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:backgroundTint="@color/white"
-            android:layout_marginVertical="20dp"/>
+            android:layout_marginVertical="10dp"/>
 
         <EditText
             android:id="@+id/option_two"
@@ -69,7 +82,7 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:backgroundTint="@color/white"
-            android:layout_marginVertical="10dp"/>
+            android:layout_marginVertical="5dp"/>
 
         <EditText
             android:id="@+id/option_three"
@@ -80,7 +93,7 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:backgroundTint="@color/white"
-            android:layout_marginVertical="10dp"/>
+            android:layout_marginVertical="5dp"/>
 
         <EditText
             android:id="@+id/option_four"
@@ -91,7 +104,7 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:backgroundTint="@color/white"
-            android:layout_marginVertical="10dp"/>
+            android:layout_marginVertical="5dp"/>
 
         <Button
             android:id="@+id/next"
@@ -106,11 +119,11 @@
             android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit"
-            android:enabled="false"
-            android:textColor="@color/black"
+            android:layout_marginVertical="20dp"
             android:backgroundTint="@color/white"
-            android:layout_marginVertical="20dp"/>
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:visibility="invisible" />
 
 
 
